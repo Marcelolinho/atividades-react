@@ -10,7 +10,7 @@ function Home04() {
     return (
       <>
         <main>
-          <h1>Timer e Amiibo</h1>
+          <h1>InputFocus e TimerV2</h1>
           <button onClick={() => navigate("inputfocus")}>InputFocus</button>
           <button onClick={() => navigate("timerv2")}>TimerV2</button>
         </main>
