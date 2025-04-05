@@ -1,19 +1,20 @@
-import { useState } from "react"
+import { useMemo, useState } from "react"
 
 
 export default function FilteredList() {
-    const [words, setWords] = useState([])
+    const [filtro, setFiltro] = useState("");
+    const lista = ["marcelo", "wallows", "lupe de lupe", "bananinha", "bilada", "não sei"]; 
 
-    const mockedWords = setWords([''])
-
-    function filterList() {
-
-    }
+  const listaFiltrada = useMemo(() => {
+    return lista.filter((item) => item.toLowerCase().includes(filtro.toLowerCase()));
+  }, [filtro, lista]);
     
     return (
         <>
             <main>
-                <h1>FilteredList</h1>
+                <div className="input-container">
+                    
+                </div>
             </main>
         </>
     )
