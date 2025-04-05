@@ -11,7 +11,7 @@ function Home03() {
       <>
         <main>
           <h1>FilteredList e Calculator</h1>
-          <button onClick={() => navigate("filteredList")}>FilteredList</button>
+          <button onClick={() => navigate("filteredlist")}>FilteredList</button>
           <button onClick={() => navigate("calculator")}>Calculator</button>
         </main>
         <TitleButton />
@@ -23,8 +23,8 @@ export default function Atividade03() {
     return (
         <Routes>
         <Route path="/" element={<Home03 />} />
-        <Route path="/timer" element={<FilteredList />} />
-        <Route path="/amiibo" element={<Calculator />} />
+        <Route path="/filteredlist" element={<FilteredList />} />
+        <Route path="/calculator" element={<Calculator />} />
         </Routes>
     );
 }
