@@ -43,12 +43,8 @@ function Home() {
               <h2>Atividade Ciclo de Vida</h2>
               <button className="activitie-button" onClick={() => navigate('/05')}>Atividade 05</button>
             </div>
-            <div className="activities" id="activitie-06">
-              <h2>Atividade Componentização</h2>
-              <button className="activitie-button" onClick={() => navigate('/06')}>Atividade 06</button>
-            </div>
             <div className="activities" id="activitie-07">
-              <h2>Atividade Props</h2>
+              <h2>Atividade Componentização</h2>
               <button className="activitie-button" onClick={() => navigate('/07')}>Atividade 07</button>
             </div>
           </div>

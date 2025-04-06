@@ -33,10 +33,13 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 .activities {
   border-radius: .5rem;
   background-color: #C7C8CC;
+  padding: 1rem;
   color: #242424;
 }

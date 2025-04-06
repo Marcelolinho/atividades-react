@@ -10,7 +10,7 @@ function Home05() {
     return (
       <>
         <main>
-          <h1>InputFocus e TimerV2</h1>
+          <h1>Monitor de Componentes e Cache de Dados</h1>
           <button onClick={() => navigate("cache")}>Cache</button>
           <button onClick={() => navigate("component")}>ComponentLifeCicle</button>
         </main>
